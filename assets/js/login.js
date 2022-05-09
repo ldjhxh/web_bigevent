@@ -15,7 +15,7 @@ $(function () {
 
   // 从 layui中获取form对象
   const form = layui.form
-  const layer = layui.layer
+  var layer = layui.layer
 
   // 通过 form.verify() 函数 自定义校验规则
   form.verify({
