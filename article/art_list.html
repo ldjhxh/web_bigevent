@@ -52,8 +52,7 @@
                         <th>操作</th>
                     </tr>
                 </thead>
-                <tbody>
-                </tbody>
+                <tbody></tbody>
             </table>
             <!-- 分页区域 -->
             <div id="pageBox"></div>
@@ -78,8 +77,8 @@
 
     <!-- 分类可选项的模板结构 -->
     <script type="text/html" id="tpl-cate">
-        {{each data}}
         <option value="">所有分类</option>
+        {{each data}}
         <option value="{{$value.Id}}"> {{$value.name}}</option>
         {{/each}}
     </script>

@@ -158,6 +158,6 @@ $(function () {
         }
       })
       layer.close(index);
-    });
+    })
   })
 })
